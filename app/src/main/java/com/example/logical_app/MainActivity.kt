@@ -16,11 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     fun entrar(view : View){
-        val name = findViewById<EditText>(R.id.name)
-        val msg = name.text.toString()
-        val intent = Intent(this, HomeActivity::class.java).apply {
-            putExtra(extra, msg)
-        }
+        val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
     }
 }
