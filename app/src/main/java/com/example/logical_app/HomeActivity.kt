@@ -18,7 +18,7 @@ class HomeActivity : AppCompatActivity() {
         startActivity(intent)
     }
     fun goContato(view : View){
-        val intent = Intent(this, ContatoActivity::class.java)
+        val intent = Intent(this, RobsonActivity::class.java)
         startActivity(intent)
     }
     fun goQuiz(view : View){
