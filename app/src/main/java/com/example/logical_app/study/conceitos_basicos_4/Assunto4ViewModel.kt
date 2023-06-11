@@ -1,11 +1,11 @@
-package com.example.logical_app.study.conceitos_basicos_3
+package com.example.logical_app.study.conceitos_basicos_4
 
 import android.widget.Button
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class Assunto3ViewModel : ViewModel() {
+class Assunto4ViewModel : ViewModel() {
     private val _text = MutableLiveData<String>().apply {
         value ="Axiomas\n" +
                 "\n1. princípio da contradição: Uma proposição não pode ser verdadeira e nem falsa ao mesmo tempo\n" +
@@ -15,7 +15,7 @@ class Assunto3ViewModel : ViewModel() {
                 "\nRecife é a capital de Pernambuco\n" +
                 "- 3/5 é um número inteiro\n" +
 
-            "Há também os tipos de proposições, são elas, simples (atômica) ou composta (molecular)\n" +
+                "Há também os tipos de proposições, são elas, simples (atômica) ou composta (molecular)\n" +
                 "\n" +
                 "\nNa simples, só há apenas uma proposição na sua composição, exemplo:\n" +
                 "\n25 é um quadrado perfeito.\n" +

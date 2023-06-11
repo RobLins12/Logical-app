@@ -26,4 +26,24 @@
         android:name="com.example.logical_app.study.conceitos_basicos_3.Assunto3Fragment"
         android:label="fragment_assunto3"
         tools:layout="@layout/fragment_assunto3" />
+    <fragment
+        android:id="@+id/assunto4Fragment"
+        android:name="com.example.logical_app.study.conceitos_basicos_4.Assunto4Fragment"
+        android:label="fragment_assunto4"
+        tools:layout="@layout/fragment_assunto4" />
+    <fragment
+        android:id="@+id/assunto5Fragment"
+        android:name="com.example.logical_app.study.conceitos_basicos_5.Assunto5Fragment"
+        android:label="fragment_assunto5"
+        tools:layout="@layout/fragment_assunto5" />
+    <fragment
+        android:id="@+id/assunto6Fragment"
+        android:name="com.example.logical_app.study.conceitos_basicos_6.Assunto6Fragment"
+        android:label="fragment_assunto6"
+        tools:layout="@layout/fragment_assunto6" />
+    <fragment
+        android:id="@+id/assunto7Fragment"
+        android:name="com.example.logical_app.study.conceitos_basicos_7.Assunto7Fragment"
+        android:label="fragment_assunto7"
+        tools:layout="@layout/fragment_assunto7" />
 </navigation>

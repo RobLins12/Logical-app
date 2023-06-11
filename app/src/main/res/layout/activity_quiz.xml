@@ -29,8 +29,7 @@
         android:layout_height="60dp"
         android:text="choice"
         android:layout_marginTop="60dp"
-        android:shadowRadius="@integer/material_motion_duration_long_1"
-        style="?attr/materialButtonOutlinedStyle"
+        android:backgroundTint="#3E4C5E"
         android:onClick="checkAnswer"
         />
     <Button
@@ -40,7 +39,8 @@
         android:text="choice"
         android:layout_marginTop="10dp"
         android:shadowRadius="@integer/material_motion_duration_long_1"
-        style="?attr/materialButtonOutlinedStyle"
+        android:backgroundTint="#3E4C5E"
+
         android:onClick="checkAnswer"
         />
     <Button
@@ -50,8 +50,8 @@
         android:text="choice"
         android:layout_marginTop="10dp"
         android:shadowRadius="@integer/material_motion_duration_long_1"
-        style="?attr/materialButtonOutlinedStyle"
         android:onClick="checkAnswer"
+        android:backgroundTint="#3E4C5E"
         />
     <Button
         android:id="@+id/btAns4"
@@ -60,7 +60,8 @@
         android:text="choice"
         android:layout_marginTop="10dp"
         android:shadowRadius="@integer/material_motion_duration_long_1"
-        style="?attr/materialButtonOutlinedStyle"
+        android:backgroundTint="#3E4C5E"
+
         android:onClick="checkAnswer"
         />
 

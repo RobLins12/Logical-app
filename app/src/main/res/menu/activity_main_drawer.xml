@@ -20,6 +20,22 @@
             android:id="@+id/assunto3Fragment"
             android:icon="@drawable/baseline_menu_book_24"
             android:title="@string/assunto_3" />
+        <item
+            android:id="@+id/assunto4Fragment"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="@string/assunto_4" />
+        <item
+            android:id="@+id/assunto5Fragment"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="assunto 5" />
+        <item
+            android:id="@+id/assunto6Fragment"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="assunto 6" />
+        <item
+            android:id="@+id/assunto7Fragment"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="assunto 7" />
 
     </group>
 </menu>

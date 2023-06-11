@@ -91,11 +91,13 @@
         android:layout_marginStart="162dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="35dp"
-        android:background="#673AB7"
         android:text="@string/button1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:onClick="entrar"/>
+        android:onClick="entrar"
+        android:background="@drawable/rounded_button"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
