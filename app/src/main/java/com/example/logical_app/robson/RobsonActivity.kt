@@ -1,36 +1,68 @@
 package com.example.logical_app.robson
 
-import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
+import android.os.Bundle
+import android.view.View
+import androidx.appcompat.app.AlertDialog
 import com.example.logical_app.R
-import com.example.logical_app.databinding.ActivityRobsonBinding
 
 class RobsonActivity : AppCompatActivity() {
-
-    private lateinit var binding: ActivityRobsonBinding
-
+    var sobreCont = 0;
+    var curioCont = 0;
+    var hobbieCont = 0;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_robson)
 
-        binding = ActivityRobsonBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        sobreCont = 1
+        curioCont = 1
+        hobbieCont = 1
+    }
 
-        val navView: BottomNavigationView = binding.navView
+    fun sobreMim(view: View) {
+        if (sobreCont == 1){
+            AlertDialog.Builder(this).setMessage("Sou Estudante da Unicap").show();
+        }
+        if (sobreCont == 2){
+            AlertDialog.Builder(this).setMessage("Faço estágio na area de robotica maker").show();
+        }
+        if (sobreCont == 3){
+            AlertDialog.Builder(this).setMessage("Faço PIBIC com o prof. Sérgio Murilo").show();
+        }
+        if (sobreCont == 2){
+            sobreCont = 1
+            return
+        }
+        sobreCont++
+    }
 
-        val navController = findNavController(R.id.nav_host_fragment_activity_robson)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        val appBarConfiguration = AppBarConfiguration(
-            setOf(
-                R.id.navigation_dashboard, R.id.navigation_notifications
-            )
-        )
-        setupActionBarWithNavController(navController, appBarConfiguration)
-        navView.setupWithNavController(navController)
+    fun curiosidades(view: View) {
+        if (curioCont == 1){
+            AlertDialog.Builder(this).setMessage("Tenho 4,75 de mioia").show();
+        }
+        if (curioCont == 2){
+            AlertDialog.Builder(this).setMessage("Sou filho de professor da UNICAP").show();
+        }
+        if (curioCont == 2){
+            curioCont = 1
+            return
+        }
+        curioCont++
+    }
+    fun hobbies(view: View) {
+        if (hobbieCont == 1){
+            AlertDialog.Builder(this).setMessage("Jogar Videogame").show();
+        }
+        if (hobbieCont == 2){
+            AlertDialog.Builder(this).setMessage("Dançar").show();
+        }
+        if (hobbieCont == 3){
+            AlertDialog.Builder(this).setMessage("RPG").show();
+        }
+        if (hobbieCont == 3){
+            hobbieCont = 1
+            return
+        }
+        hobbieCont++
     }
 }
