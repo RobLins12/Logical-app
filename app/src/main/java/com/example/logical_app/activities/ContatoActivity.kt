@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.example.logical_app.R
 import com.example.logical_app.about.robson.RobsonActivity
+import com.example.logical_app.about.talita.TalitaActivity
 
 class ContatoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +19,9 @@ class ContatoActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun goTalita(view: View) {}
+    fun goTalita(view: View) {
+        val intentTalita = Intent(this, TalitaActivity::class.java)
+        startActivity(intentTalita)
+    }
     fun goMarcus(view: View) {}
 }
