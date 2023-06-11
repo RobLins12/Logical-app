@@ -1,4 +1,4 @@
-package com.example.logical_app.ui.home
+package com.example.logical_app.study.home_study
 
 import android.os.Bundle
 import android.view.LayoutInflater

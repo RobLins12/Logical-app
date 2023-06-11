@@ -7,18 +7,18 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.logical_app.ui.home.HomeFragment"
+        android:name="com.example.logical_app.study.home_study.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/assunto2Fragment"
-        android:name="com.example.logical_app.ui.assunto2.Assunto2Fragment"
+        android:name="com.example.logical_app.study.conceitos_basicos_2.Assunto2Fragment"
         android:label="fragment_assunto2"
         tools:layout="@layout/fragment_assunto2" />
     <fragment
         android:id="@+id/assunto1Fragment"
-        android:name="com.example.logical_app.ui.assunto1.Assunto1Fragment"
+        android:name="com.example.logical_app.study.conceitos_basicos_1.Assunto1Fragment"
         android:label="fragment_assunto1"
         tools:layout="@layout/fragment_assunto1" />
 </navigation>

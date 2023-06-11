@@ -1,10 +1,11 @@
-package com.example.logical_app
+package com.example.logical_app.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.example.logical_app.robson.RobsonActivity
+import com.example.logical_app.R
+import com.example.logical_app.about.robson.RobsonActivity
 
 class ContatoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

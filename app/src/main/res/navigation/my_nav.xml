@@ -7,12 +7,12 @@
 
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.example.logical_app.MainActivity"
+        android:name="com.example.logical_app.activities.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
     <activity
         android:id="@+id/homeActivity"
-        android:name="com.example.logical_app.HomeActivity"
+        android:name="com.example.logical_app.activities.HomeActivity"
         android:label="activity_home"
         tools:layout="@layout/activity_home" />
 </navigation>

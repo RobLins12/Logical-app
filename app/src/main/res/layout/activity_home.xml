@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="25dp"
+    android:layout_margin="20dp"
     android:background="@drawable/background_home"
     android:backgroundTint="#721A8B"
-    tools:context=".HomeActivity">
+    tools:context=".activities.HomeActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardStudy"
@@ -20,7 +20,7 @@
         android:onClick="goStudy"
         app:cardBackgroundColor="#673AB7"
         app:cardCornerRadius="16dp"
-        app:cardElevation="8dp"
+        app:cardElevation="10dp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

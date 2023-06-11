@@ -1,4 +1,4 @@
-package com.example.logical_app.ui.assunto2
+package com.example.logical_app.study.conceitos_basicos_2
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

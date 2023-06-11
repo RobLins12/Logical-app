@@ -3,11 +3,5 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.assunto1.Assunto1Fragment">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
-
-</FrameLayout>
+    android:layout_margin="20dp"
+    tools:context=".study.conceitos_basicos_1.Assunto1Fragment"/>

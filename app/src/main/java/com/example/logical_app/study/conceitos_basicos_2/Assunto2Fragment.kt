@@ -1,4 +1,4 @@
-package com.example.logical_app.ui.assunto2
+package com.example.logical_app.study.conceitos_basicos_2
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,9 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.example.logical_app.R
 import com.example.logical_app.databinding.FragmentHomeBinding
-import com.example.logical_app.ui.home.HomeViewModel
 
 class Assunto2Fragment : Fragment() {
 

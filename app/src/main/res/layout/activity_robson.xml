@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#BBE5ED"
-    tools:context=".robson.RobsonActivity">
+    tools:context=".about.robson.RobsonActivity">
 
     <ImageView
         android:id="@+id/imageView7"

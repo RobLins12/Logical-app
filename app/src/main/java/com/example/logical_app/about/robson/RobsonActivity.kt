@@ -1,4 +1,4 @@
-package com.example.logical_app.robson
+package com.example.logical_app.about.robson
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
