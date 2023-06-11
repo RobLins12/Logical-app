@@ -21,4 +21,9 @@
         android:name="com.example.logical_app.study.conceitos_basicos_1.Assunto1Fragment"
         android:label="fragment_assunto1"
         tools:layout="@layout/fragment_assunto1" />
+    <fragment
+        android:id="@+id/assunto3Fragment"
+        android:name="com.example.logical_app.study.conceitos_basicos_3.Assunto3Fragment"
+        android:label="fragment_assunto3"
+        tools:layout="@layout/fragment_assunto3" />
 </navigation>

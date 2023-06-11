@@ -11,11 +11,15 @@
         <item
             android:id="@+id/assunto1Fragment"
             android:icon="@drawable/baseline_menu_book_24"
-            android:title="Assunto1" />
+            android:title="@string/assunto_1" />
         <item
             android:id="@+id/assunto2Fragment"
             android:icon="@drawable/baseline_menu_book_24"
-            android:title="Assunto2" />
+            android:title="@string/assunto_2" />
+        <item
+            android:id="@+id/assunto3Fragment"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="@string/assunto_3" />
 
     </group>
 </menu>
