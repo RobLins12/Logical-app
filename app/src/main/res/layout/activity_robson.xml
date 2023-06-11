@@ -34,13 +34,14 @@
         android:id="@+id/button2"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="128dp"
         android:background="@drawable/backgroud_button"
         android:fontFamily="@font/adamina"
         android:onClick="sobreMim"
         android:text="Sobre Mim"
         android:textColor="@color/white"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -55,6 +56,7 @@
         android:onClick="curiosidades"
         android:text="Curiosidades"
         android:textColor="@color/white"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
@@ -69,6 +71,7 @@
         android:onClick="hobbies"
         android:text="Hobbies"
         android:textColor="@color/white"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
