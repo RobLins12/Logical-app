@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Logicalapp"
         tools:targetApi="31">
         <activity
+            android:name=".about.talita.TalitaActivity"
+            android:exported="false" />
+        <activity
             android:name=".about.robson.RobsonActivity"
             android:exported="false"
             android:label="@string/title_activity_robson" />
