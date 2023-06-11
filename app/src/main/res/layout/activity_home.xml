@@ -12,7 +12,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardStudy"
         android:layout_width="match_parent"
-        android:layout_height="128dp"
+        android:layout_height="100dp"
         android:layout_marginStart="0dp"
         android:layout_marginTop="88dp"
         android:layout_marginEnd="0dp"
@@ -67,7 +67,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardSobre"
         android:layout_width="match_parent"
-        android:layout_height="128dp"
+        android:layout_height="100dp"
         android:layout_marginStart="0dp"
         android:layout_marginTop="88dp"
         android:layout_marginEnd="0dp"
@@ -118,7 +118,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardQuiz"
         android:layout_width="match_parent"
-        android:layout_height="128dp"
+        android:layout_height="100dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="1dp"

@@ -46,4 +46,10 @@
         android:name="com.example.logical_app.study.conceitos_basicos_7.Assunto7Fragment"
         android:label="fragment_assunto7"
         tools:layout="@layout/fragment_assunto7" />
+
+    <fragment
+        android:id="@+id/assunto8Fragment"
+        android:name="com.example.logical_app.study.conceitos_basicos_8.Assunto8Fragment"
+        android:label="fragment_assunto8"
+        tools:layout="@layout/fragment_assunto8" />
 </navigation>

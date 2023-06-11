@@ -36,6 +36,10 @@
             android:id="@+id/assunto7Fragment"
             android:icon="@drawable/baseline_menu_book_24"
             android:title="assunto 7" />
+        <item
+            android:id="@+id/assunto8Fragment"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="assunto 8" />
 
     </group>
 </menu>
