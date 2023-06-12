@@ -13,6 +13,8 @@
         android:layout_height="417dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="4dp"
+        android:background="@drawable/backgroud_button"
+        android:backgroundTint="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/robson" />
@@ -36,11 +38,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="128dp"
-        android:background="@drawable/backgroud_button"
+        android:backgroundTint="@color/blue"
         android:fontFamily="@font/adamina"
         android:onClick="sobreMim"
         android:text="Sobre Mim"
-        android:textColor="@color/white"
+        android:textColor="#3F51B5"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -51,11 +53,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="128dp"
-        android:background="@drawable/backgroud_button"
+        android:backgroundTint="@color/blue"
         android:fontFamily="@font/adamina"
         android:onClick="curiosidades"
         android:text="Curiosidades"
-        android:textColor="@color/white"
+        android:textColor="#3F51B5"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
@@ -66,12 +68,32 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="128dp"
-        android:background="@drawable/backgroud_button"
+        android:backgroundTint="@color/blue"
         android:fontFamily="@font/adamina"
         android:onClick="hobbies"
         android:text="Hobbies"
-        android:textColor="@color/white"
+        android:textColor="#3F51B5"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
 </androidx.constraintlayout.widget.ConstraintLayout>
