@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:textSize="20sp"
-            android:text="Seja a seguinte as seguintes proposições: p: está frio; q: não está chovendo"
+            android:text="Considere a proposição conjuntiva P ∧ (Q ∨ R). Qual é a sua forma simplificada equivalente?"
              />
 
         <Button
@@ -28,7 +28,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="200dp"
             android:onClick="opcaoA"
-            android:text="~p  v ~q"
+            android:text="P ∧ Q"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -40,7 +40,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="300dp"
             android:onClick="opcaoB"
-            android:text="~p ^ q"
+            android:text="P ∧ R"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -52,7 +52,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="400dp"
             android:onClick="opcaoC"
-            android:text="p ^ q"
+            android:text="P ∨ Q"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -65,7 +65,7 @@
             android:layout_marginTop="500dp"
             android:onClick="opcaoD"
             android:textSize="20sp"
-            android:text="p ^ q"
+            android:text="(P ∨ Q) ∧ (P ∨ R)"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
