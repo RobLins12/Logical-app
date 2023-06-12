@@ -27,11 +27,13 @@
         android:layout_height="85dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="34dp"
+        android:layout_marginEnd="21dp"
         android:layout_marginBottom="11dp"
         android:clickable="true"
         android:contentDescription='""'
         android:onClick="goRobson"
         app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/goTalita"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView22"
         app:srcCompat="@drawable/pikachu_musculoso_pokemon_impressao_3d_impressao_3d"
@@ -57,6 +59,7 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
         android:layout_marginEnd="53dp"
         android:layout_marginBottom="84dp"
         android:text="Talita Pacheco"
@@ -64,12 +67,14 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView12"
-        app:layout_constraintStart_toEndOf="@+id/textView9" />
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/goTalita" />
 
     <ImageView
         android:id="@+id/goMarcus"
         android:layout_width="85dp"
         android:layout_height="90dp"
+        android:layout_marginStart="21dp"
         android:layout_marginTop="138dp"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="11dp"
@@ -77,6 +82,7 @@
         android:onClick="goMarcus"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/goTalita"
         app:layout_constraintTop_toBottomOf="@+id/cardView"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -95,14 +101,14 @@
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/goMarcus" />
 
-    <androidx.cardview.widget.CardView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cardView"
         android:layout_width="362dp"
         android:layout_height="285dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="25dp"
-        android:backgroundTint="#450C55"
+        android:background="#3F094E"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,14 +116,35 @@
 
         <TextView
             android:id="@+id/textView21"
-            android:layout_width="294dp"
-            android:layout_height="182dp"
-            android:layout_marginStart="41dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginEnd="41dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="10dp"
             android:text="@string/sobre_2"
-            android:textColor="@color/white" />
-    </androidx.cardview.widget.CardView>
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView23"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="41dp"
+            android:text="@string/sobre_3"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
         android:id="@+id/textView22"
@@ -137,9 +164,9 @@
         android:id="@+id/goTalita"
         android:layout_width="85dp"
         android:layout_height="85dp"
-        android:layout_marginStart="54dp"
+        android:layout_marginStart="21dp"
         android:layout_marginTop="138dp"
-        android:layout_marginEnd="53dp"
+        android:layout_marginEnd="21dp"
         android:layout_marginBottom="11dp"
         android:contentDescription='""'
         android:onClick="goTalita"

@@ -43,8 +43,6 @@
 
     <string name="sobre_1">Sobre</string>
     <string name="colaboradores">Colaboradores</string>
-    <string name="sobre_2">         O LogicMathIq é um aplicativo para Android que oferece uma abordagem inovadora e interativa para ensinar lógica matemática!
-
-        Combinando uma seção de estudo abrangente e desafiadores quizzes, este aplicativo é projetado para ajudar usuários de todas as idades a desenvolverem suas habilidades matemáticas e raciocínio lógico.</string>
-
+    <string name="sobre_2">         O LogicMathIq é um aplicativo para Android que oferece uma abordagem inovadora e interativa para ensinar lógica matemática!</string>
+    <string name="sobre_3">         Combinando uma seção de estudo abrangente e desafiadores quizzes, este aplicativo é projetado para ajudar usuários de todas as idades a desenvolverem suas habilidades matemáticas e raciocínio lógico.</string>
 </resources>
