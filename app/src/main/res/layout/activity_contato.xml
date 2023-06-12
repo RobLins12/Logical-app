@@ -4,81 +4,150 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C64ADC"
+    android:background="#721A8B"
     tools:context=".activities.ContatoActivity">
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="128dp"
-        android:text="Colaboradores"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="325dp"
+        android:text="Sobre"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="128dp"
+        android:id="@+id/goRobson"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="11dp"
+        android:clickable="true"
+        android:contentDescription='""'
         android:onClick="goRobson"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pikachu_musculoso_pokemon_impressao_3d_impressao_3d" />
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:srcCompat="@drawable/pikachu_musculoso_pokemon_impressao_3d_impressao_3d"
+        tools:contextClickable="false" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="164dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="89dp"
         android:text="Robson Lins"
         android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:onClick="goTalita"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="132dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:srcCompat="@drawable/_01af78d5faeb7ad007e6dbf9eb3effc" />
+        app:layout_constraintTop_toBottomOf="@+id/goRobson" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="160dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="84dp"
         android:text="Talita Pacheco"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/textView9" />
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:id="@+id/goMarcus"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="11dp"
+        android:contentDescription='""'
         android:onClick="goMarcus"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="132dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="156dp"
+        android:layout_width="0dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="89dp"
         android:text="Marcus Vinicius"
         android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/goMarcus" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="362dp"
+        android:layout_height="285dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#450C55"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="294dp"
+            android:layout_height="182dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="41dp"
+            android:text="@string/sobre_2"
+            android:textColor="@color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="256dp"
+        android:text="@string/colaboradores"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <ImageView
+        android:id="@+id/goTalita"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="11dp"
+        android:contentDescription='""'
+        android:onClick="goTalita"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toStartOf="@+id/goMarcus"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/goRobson"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/_01af78d5faeb7ad007e6dbf9eb3effc" />
 </androidx.constraintlayout.widget.ConstraintLayout>
