@@ -27,7 +27,7 @@ class FinishFragment : Fragment() {
 
         val texto = view.findViewById<TextView>(R.id.textView20)
         texto.setText("Parabéns!! \n\n " + args.nome)
-        view.findViewById<Button>(R.id.button10).setOnClickListener { Navigation.findNavController(view).navigate(R.id.action_finishFragment_to_quizFragment) }
+        view.findViewById<Button>(R.id.button10).setOnClickListener { Navigation.findNavController(view).navigate(R.id.action_finishFragment_to_homeActivity) }
 
         return view
     }

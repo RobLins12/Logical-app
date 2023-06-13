@@ -33,17 +33,11 @@ class StudyActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.assunto1Fragment, R.id.assunto2Fragment
+                R.id.nav_home, R.id.assunto1Fragment, R.id.assunto2Fragment, R.id.assunto3Fragment, R.id.assunto4Fragment, R.id.assunto5Fragment, R.id.assunto6Fragment, R.id.assunto7Fragment, R.id.assunto8Fragment
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.study, menu)
-        return true
     }
 
     override fun onSupportNavigateUp(): Boolean {

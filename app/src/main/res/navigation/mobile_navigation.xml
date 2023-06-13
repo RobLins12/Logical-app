@@ -8,48 +8,48 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.logical_app.study.home_study.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="Estudos"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/assunto2Fragment"
         android:name="com.example.logical_app.study.conceitos_basicos_2.Assunto2Fragment"
-        android:label="fragment_assunto2"
+        android:label="Assunto 2"
         tools:layout="@layout/fragment_assunto2" />
     <fragment
         android:id="@+id/assunto1Fragment"
         android:name="com.example.logical_app.study.conceitos_basicos_1.Assunto1Fragment"
-        android:label="fragment_assunto1"
+        android:label="Assunto 1"
         tools:layout="@layout/fragment_assunto1" />
     <fragment
         android:id="@+id/assunto3Fragment"
         android:name="com.example.logical_app.study.conceitos_basicos_3.Assunto3Fragment"
-        android:label="fragment_assunto3"
+        android:label="Assunto 3"
         tools:layout="@layout/fragment_assunto3" />
     <fragment
         android:id="@+id/assunto4Fragment"
         android:name="com.example.logical_app.study.conceitos_basicos_4.Assunto4Fragment"
-        android:label="fragment_assunto4"
+        android:label="Assunto 4"
         tools:layout="@layout/fragment_assunto4" />
     <fragment
         android:id="@+id/assunto5Fragment"
         android:name="com.example.logical_app.study.conceitos_basicos_5.Assunto5Fragment"
-        android:label="fragment_assunto5"
+        android:label="Assunto 5"
         tools:layout="@layout/fragment_assunto5" />
     <fragment
         android:id="@+id/assunto6Fragment"
         android:name="com.example.logical_app.study.conceitos_basicos_6.Assunto6Fragment"
-        android:label="fragment_assunto6"
+        android:label="Assunto 6"
         tools:layout="@layout/fragment_assunto6" />
     <fragment
         android:id="@+id/assunto7Fragment"
         android:name="com.example.logical_app.study.conceitos_basicos_7.Assunto7Fragment"
-        android:label="fragment_assunto7"
+        android:label="Assunto 7"
         tools:layout="@layout/fragment_assunto7" />
 
     <fragment
         android:id="@+id/assunto8Fragment"
         android:name="com.example.logical_app.study.conceitos_basicos_8.Assunto8Fragment"
-        android:label="fragment_assunto8"
+        android:label="Assunto 8"
         tools:layout="@layout/fragment_assunto8" />
 </navigation>
