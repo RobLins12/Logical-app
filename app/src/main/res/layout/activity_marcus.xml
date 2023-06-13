@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:layout_margin="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_1"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_marginTop="100dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="0.8in"
+                    android:src="@drawable/m3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingStart="1in"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/ol_eu_sou_marcus_vinicius_sou_estudante_da_unicap_do_curso_de_ci_ncia_da_computa_o"
+                    android:textSize="18sp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_2"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_marginTop="100dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="0.8in"
+                    android:src="@drawable/m2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingStart="1in"
+                    android:layout_marginTop="15dp"
+                    android:text="As áreas que gosto da computação é: IoT, C.D., I.A. e M.L. Além disso, eu amo a minha Startup"
+                    android:textSize="18sp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_3"
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_marginTop="100dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="0.8in"
+                    android:layout_height="0.8in"
+                    android:src="@drawable/m1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingStart="1in"
+                    android:layout_marginTop="15dp"
+                    android:text="Tu me segue no linkdin? então clica aí pra a gente trocar uma ideia!"
+                    android:textSize="18sp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
