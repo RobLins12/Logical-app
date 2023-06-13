@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import com.example.logical_app.R
+import com.example.logical_app.about.marcus.MarcusActivity
 import com.example.logical_app.about.robson.RobsonActivity
 import com.example.logical_app.about.talita.TalitaActivity
 
@@ -25,5 +26,8 @@ class ContatoActivity : AppCompatActivity() {
         val intentTalita = Intent(this, TalitaActivity::class.java)
         startActivity(intentTalita)
     }
-    fun goMarcus(view: View) {}
+    fun goMarcus(view: View) {
+        val intentMarcus = Intent(this, MarcusActivity::class.java)
+        startActivity(intentMarcus)
+    }
 }
